@@ -12,7 +12,11 @@ let rec factorial = n =>
     n * factorial(n - 1);
   };
 
-Js.log(factorial(10)) /* mutually recursive function*/;
+Js.log(factorial(10));
+
+/* mutually recursive function, multiple recursive functions
+   separated by and to allow simultaenous declaration of functions
+   */
 
 let rec isEven = num =>
   if (num == 0) {
