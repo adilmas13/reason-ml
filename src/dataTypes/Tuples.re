@@ -2,6 +2,8 @@
 // tuple of three components each of type string, not meant to be updated
 type person = (string, string, string); // some what like a dto
 
+// a perfect DTO would be record. See the Records file
+
 let luke: person = ("Lake", "Johnny", "Jedi");
 
 let han: person = ("Han", "Solo", "Pilot");
