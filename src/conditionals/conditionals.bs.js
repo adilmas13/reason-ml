@@ -4,4 +4,9 @@
 
 console.log(20);
 
+var workshop = "happy";
+
+console.log(workshop);
+
+exports.workshop = workshop;
 /*  Not a pure module */
