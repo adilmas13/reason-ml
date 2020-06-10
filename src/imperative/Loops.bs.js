@@ -20,7 +20,7 @@ while(Caml_obj.caml_lessthan(i$2, {
         contents: 8
       })) {
   i$2.contents = i$2.contents + 1 | 0;
-  console.log(i$2);
+  console.log(i$2.contents);
 };
 
 exports.i = i$2;

@@ -13,5 +13,5 @@ let i = ref(0);
 
 while (i < ref(8)) {
   i := i^ + 1;
-  Js.log(i);
+  Js.log(i^); // ^ to refer to the content
 };
